@@ -39,9 +39,11 @@ var styleObj = {
 iconsDiv.style.display = 'inline-flex';
 Object.assign(iconsDiv.style, {
     display: 'inline-flex',
-    position: 'absolute',
+    //position: 'absolute',
     //left: '380px',
+
     textAlign: 'center',
+    marginTop: '40px',
     top: '317px'
 });
 Object.assign(icon1.style, styleObj);
@@ -81,7 +83,7 @@ Object.assign(imgGoogle.style, {
     width: '272px',
     height: '92px',
     paddingTop: '109px',
-    position: 'absolute',
+    //position: 'absolute',
     //left: '469px',
     textAlign: '-webkit-center'
 });
@@ -91,8 +93,9 @@ inp.setAttribute('type', 'text');
 inp.setAttribute('placeholder', 'Search Google or type a URL');
 Object.assign(inp.style, {
     border: 'none',
-    paddingTop: '3px',
+    //paddingTop: '3px',
     width: '500px',
+    outline: 'none'
     //paddingLeft: '12px'
 
 //height: '35px',
@@ -121,7 +124,7 @@ Object.assign(inpDiv.style, {
     width: '500px',
     borderRadius: '30px',
     paddingLeft: '20px',
-    position: 'absolute',
+    //position: 'absolute',
     top: '235px',
     //left: '351px',
     paddingTop: '2px',
