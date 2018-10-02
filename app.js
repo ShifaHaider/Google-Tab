@@ -27,13 +27,13 @@ var settingD = document.createElement('div');
 var settingI = document.createElement('img');
 var bellDiv = document.createElement('div');
 var styleObj = {
-    alignItems: 'center',
-    display: 'flex',
-    flexFlow: 'column nowrap',
-    height: '100%',
-    position: 'relative',
+    //alignItems: 'center',
+    //display: 'flex',
+    //flexFlow: 'column nowrap',
+    //height: '100%',
+    //position: 'relative',
     width: '100%',
-    zIndex: '-1'
+    //zIndex: '-1'
 };
 
 iconsDiv.style.display = 'inline-flex';

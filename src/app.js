@@ -15,17 +15,32 @@ var icon1 = document.createElement('div');
 var icon2 = document.createElement('div');
 var icon3 = document.createElement('div');
 var icon4 = document.createElement('div');
+var icon5 = document.createElement('div');
+var icon6 = document.createElement('div');
+var icon7 = document.createElement('div');
+var icon8 = document.createElement('div');
 var img1 = document.createElement('img');
 var img2 = document.createElement('img');
 var img3 = document.createElement('img');
 var img4 = document.createElement('img');
+var img5 = document.createElement('img');
+var img6 = document.createElement('img');
+var img7 = document.createElement('img');
+var img8 = document.createElement('img');
 var button1 = document.createElement('button');
 var button2 = document.createElement('button');
 var button3 = document.createElement('button');
 var button4 = document.createElement('button');
+var button5 = document.createElement('button');
+var button6 = document.createElement('button');
+var button7 = document.createElement('button');
+var button8 = document.createElement('button');
 var settingD = document.createElement('div');
 var settingI = document.createElement('img');
 var bellDiv = document.createElement('div');
+var secIconD = document.createElement('div');
+var brD = document.createElement('div');
+var br = document.createElement('br');
 var styleObj = {
     alignItems: 'center',
     display: 'flex',
@@ -33,15 +48,21 @@ var styleObj = {
     height: '100%',
     position: 'relative',
     width: '100%',
-    zIndex: '-1'
+    //zIndex: '-1'
 };
 
-iconsDiv.style.display = 'inline-flex';
 Object.assign(iconsDiv.style, {
     display: 'inline-flex',
     //position: 'absolute',
     //left: '380px',
-
+    textAlign: 'center',
+    marginTop: '40px',
+    top: '317px'
+});
+Object.assign(secIconD.style, {
+    display: 'inline-flex',
+    //position: 'absolute',
+    //left: '380px',
     textAlign: 'center',
     marginTop: '40px',
     top: '317px'
@@ -66,13 +87,47 @@ img4.setAttribute('src', 'map.0407227,16z');
 button4.innerHTML = 'Google Maps';
 icon4.appendChild(img4);
 icon4.appendChild(button4);
-icon3.appendChild(button3);
+//icon3.appendChild(button3);
 iconsDiv.appendChild(icon1);
 iconsDiv.appendChild(icon2);
 iconsDiv.appendChild(icon3);
-
-
 iconsDiv.appendChild(icon4);
+//brD.appendChild(br);
+iconsDiv.appendChild(br);
+
+Object.assign(icon5.style, styleObj);
+img5.setAttribute('src', 'download.png');
+button5.innerHTML = 'ShifaHaider';
+icon5.appendChild(img5);
+icon5.appendChild(button5);
+Object.assign(icon6.style, styleObj);
+img6.setAttribute('src', 'download (1).png');
+button6.innerHTML = 'Material-ui';
+icon6.appendChild(img6);
+icon6.appendChild(button6);
+Object.assign(icon7.style, styleObj);
+img7.setAttribute('src', 'download (2).png');
+button7.innerHTML = 'Google';
+icon7.appendChild(img7);
+icon7.appendChild(button7);
+Object.assign(icon8.style, styleObj);
+img8.setAttribute('src', 'map.0407227,16z');
+button8.innerHTML = 'Google Maps';
+icon8.appendChild(img8);
+icon8.appendChild(button8);
+//icon7.appendChild(button7);
+iconsDiv.appendChild(icon5);
+iconsDiv.appendChild(icon6);
+iconsDiv.appendChild(icon7);
+iconsDiv.appendChild(icon8);
+console.log(br);
+//secIconD.appendChild(icon5);
+//secIconD.appendChild(icon6);
+//secIconD.appendChild(icon7);
+//secIconD.appendChild(icon8);
+
+
+//iconsDiv.appendChild(icon4);
 
 Object.assign(siteDiv.style, {
     display: 'inline-block'
@@ -127,12 +182,13 @@ Object.assign(inpDiv.style, {
     //position: 'absolute',
     top: '235px',
     //left: '351px',
-    paddingTop: '2px',
+    //paddingTop: '2px',
     paddingRight: '10px',
     backgroundColor: "white",
     display: "flex",
     justifyContent: "space-between",
-    textAlign: 'center'
+    textAlign: 'center',
+    marginTop: '20px'
     //alignItems: "center"
 });
 
@@ -249,6 +305,7 @@ function mouseOut(e){
 }
 
 mainDiv.appendChild(iconsDiv);
+mainDiv.appendChild(secIconD);
 Object.assign(body.style, {
     backgroundImage: "url(google-tab.jpg)",
     height: '100%',
