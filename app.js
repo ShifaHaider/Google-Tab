@@ -39,27 +39,32 @@ var styleObj = {
 iconsDiv.style.display = 'inline-flex';
 Object.assign(iconsDiv.style, {
     display: 'inline-flex',
-    position: 'absolute',
+    marginTop: '40px',
+    //position: 'absolute',
     //left: '380px',
-    top: '317px',
+    //top: '317px',
     textAlign: 'center'
 });
-Object.assign(icon1.style, styleObj);
+//Object.assign(icon1.style, styleObj);
+icon1.style.display = 'inline-grid';
 img1.setAttribute('src', 'download.png');
 button1.innerHTML = 'ShifaHaider';
 icon1.appendChild(img1);
 icon1.appendChild(button1);
-Object.assign(icon2.style, styleObj);
+//Object.assign(icon2.style, styleObj);
+icon2.style.display = 'inline-grid';
 img2.setAttribute('src', 'download (1).png');
 button2.innerHTML = 'Material-ui';
 icon2.appendChild(img2);
 icon2.appendChild(button2);
-Object.assign(icon3.style, styleObj);
+//Object.assign(icon3.style, styleObj);
+icon3.style.display = 'inline-grid';
 img3.setAttribute('src', 'download (2).png');
 button3.innerHTML = 'Google';
 icon3.appendChild(img3);
 icon3.appendChild(button3);
-Object.assign(icon4.style, styleObj);
+//Object.assign(icon4.style, styleObj);
+icon4.style.display = 'inline-grid';
 img4.setAttribute('src', 'map.0407227,16z');
 button4.innerHTML = 'Google Maps';
 icon4.appendChild(img4);
@@ -68,8 +73,6 @@ icon3.appendChild(button3);
 iconsDiv.appendChild(icon1);
 iconsDiv.appendChild(icon2);
 iconsDiv.appendChild(icon3);
-
-
 iconsDiv.appendChild(icon4);
 
 Object.assign(siteDiv.style, {
@@ -250,10 +253,12 @@ Object.assign(body.style, {
     margin: '0',
     //backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    //backgroundSize: 'cover',
     fontFamily: 'arial,sans-serif',
     textAlign: '-webkit-center'
 });
+
+
 body.appendChild(mainDiv);
 
 //background-color: rgba(0,0,0,.55);

@@ -26,7 +26,8 @@ var img4 = document.createElement('img');
 var img5 = document.createElement('img');
 var img6 = document.createElement('img');
 var img7 = document.createElement('img');
-var img8 = document.createElement('img');
+var i8 = document.createElement('div');
+var plus = document.createElement('div');
 var button1 = document.createElement('button');
 var button2 = document.createElement('button');
 var button3 = document.createElement('button');
@@ -41,31 +42,32 @@ var bellDiv = document.createElement('div');
 var secIconD = document.createElement('div');
 var brD = document.createElement('div');
 var br = document.createElement('br');
+var d = document.createElement('div');
 var styleObj = {
-    alignItems: 'center',
+    //alignItems: 'center',
     display: 'flex',
     flexFlow: 'column nowrap',
     height: '100%',
     position: 'relative',
     width: '100%',
-    //zIndex: '-1'
+    zIndex: '-1'
 };
 
 Object.assign(iconsDiv.style, {
-    display: 'inline-flex',
-    //position: 'absolute',
+    display: 'flex',
+    position: 'absolute',
     //left: '380px',
-    textAlign: 'center',
+    //textAlign: 'center',
     marginTop: '40px',
-    top: '317px'
+    //top: '317px'
 });
 Object.assign(secIconD.style, {
-    display: 'inline-flex',
+    display: 'flex',
     //position: 'absolute',
     //left: '380px',
-    textAlign: 'center',
+    //textAlign: 'center',
     marginTop: '40px',
-    top: '317px'
+    //top: '317px'
 });
 Object.assign(icon1.style, styleObj);
 img1.setAttribute('src', 'download.png');
@@ -93,7 +95,6 @@ iconsDiv.appendChild(icon2);
 iconsDiv.appendChild(icon3);
 iconsDiv.appendChild(icon4);
 //brD.appendChild(br);
-iconsDiv.appendChild(br);
 
 Object.assign(icon5.style, styleObj);
 img5.setAttribute('src', 'download.png');
@@ -110,10 +111,23 @@ img7.setAttribute('src', 'download (2).png');
 button7.innerHTML = 'Google';
 icon7.appendChild(img7);
 icon7.appendChild(button7);
-Object.assign(icon8.style, styleObj);
-img8.setAttribute('src', 'map.0407227,16z');
-button8.innerHTML = 'Google Maps';
-icon8.appendChild(img8);
+//Object.assign(icon8.style, styleObj);
+icon8.style.marginTop = '-8px';
+i8.setAttribute('src', 'map.0407227,16z');
+Object.assign(i8.style, {
+    height: '56px',
+    width: '56px',
+    background: 'white',
+    borderRadius: '50%'
+});
+plus.innerHTML = '+';
+Object.assign(plus.style, {
+    fontSize: '24px',
+    paddingTop : '13px'
+});
+i8.appendChild(plus);
+button8.innerHTML = 'Add shortcut';
+icon8.appendChild(i8);
 icon8.appendChild(button8);
 //icon7.appendChild(button7);
 //iconsDiv.appendChild(icon5);
@@ -195,8 +209,8 @@ Object.assign(inpDiv.style, {
 mainDiv.appendChild(inpDiv);
 
 div1.innerHTML = 'Gmail';
-div1.setAttribute('onmouseover' , 'mouseOver(this)');
-div1.setAttribute('onmouseout' , 'mouseOut(this)');
+div1.setAttribute('onmouseover', 'mouseOver(this)');
+div1.setAttribute('onmouseout', 'mouseOut(this)');
 Object.assign(div1.style, {
     top: '20px',
     position: 'absolute',
@@ -208,8 +222,8 @@ Object.assign(div1.style, {
 siteDiv.appendChild(div1);
 
 div2.innerHTML = 'Images';
-div2.setAttribute('onmouseover' , 'mouseOver(this)');
-div2.setAttribute('onmouseout' , 'mouseOut(this)');
+div2.setAttribute('onmouseover', 'mouseOver(this)');
+div2.setAttribute('onmouseout', 'mouseOut(this)');
 Object.assign(div2.style, {
     top: '20px',
     position: 'absolute',
@@ -285,7 +299,7 @@ Object.assign(settingD.style, {
     width: '28px',
     zIndex: '100'
 });
-settingD.setAttribute('onclick' , 'createCard(this)');
+settingD.setAttribute('onclick', 'createCard(this)');
 settingI.setAttribute('src', 'download.svg');
 settingI.style.width = '17px';
 settingI.style.height = '17px';
@@ -297,22 +311,26 @@ mainDiv.appendChild(settingD);
 //Object.assign()
 mainDiv.appendChild(siteDiv);
 function mouseOver(e) {
-    e.setAttribute('href' , '');
+    e.setAttribute('href', '');
     e.style.color = 'rgba(0,0,0,0.87)';
 }
-function mouseOut(e){
+function mouseOut(e) {
     e.removeAttribute('href');
 }
 
+//d.appendChild(iconsDiv);
+//d.appendChild(secIconD);
 mainDiv.appendChild(iconsDiv);
 mainDiv.appendChild(secIconD);
+//d.style.textAlign = 'center';
+//mainDiv.appendChild(d);
 Object.assign(body.style, {
     backgroundImage: "url(google-tab.jpg)",
     height: '100%',
     margin: '0',
     //backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    //backgroundSize: 'cover',
     fontFamily: 'arial,sans-serif',
     textAlign: '-webkit-center'
 });
