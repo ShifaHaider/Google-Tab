@@ -304,11 +304,8 @@ settingI.setAttribute('src', 'download.svg');
 settingI.style.width = '17px';
 settingI.style.height = '17px';
 settingI.style.cursor = 'pointer';
-
 settingD.appendChild(settingI);
 mainDiv.appendChild(settingD);
-
-//Object.assign()
 mainDiv.appendChild(siteDiv);
 function mouseOver(e) {
     e.setAttribute('href', '');
@@ -317,13 +314,8 @@ function mouseOver(e) {
 function mouseOut(e) {
     e.removeAttribute('href');
 }
-
-//d.appendChild(iconsDiv);
-//d.appendChild(secIconD);
 mainDiv.appendChild(iconsDiv);
 mainDiv.appendChild(secIconD);
-//d.style.textAlign = 'center';
-//mainDiv.appendChild(d);
 Object.assign(body.style, {
     backgroundImage: "url(google-tab.jpg)",
     height: '100%',
