@@ -128,8 +128,6 @@ Object.assign(imgGoogle.style, {
     width: '272px',
     height: '92px',
     paddingTop: '109px',
-    //position: 'absolute',
-    //left: '469px',
     textAlign: '-webkit-center'
 });
 mainDiv.appendChild(imgGoogle);
