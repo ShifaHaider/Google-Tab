@@ -277,13 +277,6 @@ secIconD.appendChild(icon6);
 secIconD.appendChild(icon7);
 secIconD.appendChild(icon8);
 
-
-
-
-
-
-
-
 mainDiv.appendChild(iconsDiv);
 mainDiv.appendChild(secIconD);
 Object.assign(body.style, {
