@@ -59,7 +59,6 @@ Object.assign(iconsDiv.style, {
 });
 Object.assign(secIconD.style, {
     display: 'flex',
-    //position: 'absolute',
     //left: '380px',
     //textAlign: 'center',
     marginTop: '40px',
