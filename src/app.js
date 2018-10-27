@@ -260,7 +260,7 @@ settingI.style.height = '17px';
 settingI.style.cursor = 'pointer';
 settingD.appendChild(settingI);
 mainDiv.appendChild(settingD);
-mainDiv.appendChild(siteDiv);o
+mainDiv.appendChild(siteDiv);
 function mouseOver(e) {
     e.setAttribute('href', '');
     e.style.color = 'rgba(0,0,0,0.87)';
