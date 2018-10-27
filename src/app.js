@@ -146,7 +146,7 @@ Object.assign(mic.style, {
     width: '23px',
     height: '23px',
     paddingRight: '6px',
-    paddingTop: '7px',
+    paddingTop: '7px'
 
 });
 inpDiv.appendChild(inp);
@@ -156,7 +156,6 @@ Object.assign(inpDiv.style, {
     width: '500px',
     borderRadius: '30px',
     paddingLeft: '20px',
-    //position: 'absolute',
     top: '235px',
     //left: '351px',
     //paddingTop: '2px',
