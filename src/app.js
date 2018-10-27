@@ -121,10 +121,6 @@ icon8.appendChild(button8);
 
 console.log(br);
 
-
-
-//iconsDiv.appendChild(icon4);
-
 Object.assign(siteDiv.style, {
     display: 'inline-block'
 });
