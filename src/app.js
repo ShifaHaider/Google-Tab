@@ -119,8 +119,6 @@ button8.innerHTML = 'Add shortcut';
 icon8.appendChild(i8);
 icon8.appendChild(button8);
 
-console.log(br);
-
 Object.assign(siteDiv.style, {
     display: 'inline-block'
 });
