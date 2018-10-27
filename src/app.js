@@ -101,7 +101,6 @@ img7.setAttribute('src', 'download (2).png');
 button7.innerHTML = 'Google';
 icon7.appendChild(img7);
 icon7.appendChild(button7);
-//Object.assign(icon8.style, styleObj);
 icon8.style.marginTop = '-8px';
 i8.setAttribute('src', 'map.0407227,16z');
 Object.assign(i8.style, {
