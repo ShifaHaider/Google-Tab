@@ -136,7 +136,6 @@ inp.setAttribute('type', 'text');
 inp.setAttribute('placeholder', 'Search Google or type a URL');
 Object.assign(inp.style, {
     border: 'none',
-    //paddingTop: '3px',
     width: '500px',
     outline: 'none'
     //paddingLeft: '12px'
