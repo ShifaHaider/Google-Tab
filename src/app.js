@@ -316,7 +316,6 @@ Object.assign(body.style, {
     height: '100%',
     margin: '0',
     backgroundRepeat: 'no-repeat',
-    //backgroundSize: 'cover',
     fontFamily: 'arial,sans-serif',
     textAlign: '-webkit-center'
 });
