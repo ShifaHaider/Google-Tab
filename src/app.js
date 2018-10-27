@@ -85,7 +85,6 @@ iconsDiv.appendChild(icon1);
 iconsDiv.appendChild(icon2);
 iconsDiv.appendChild(icon3);
 iconsDiv.appendChild(icon4);
-//brD.appendChild(br);
 
 Object.assign(icon5.style, styleObj);
 img5.setAttribute('src', 'download.png');
