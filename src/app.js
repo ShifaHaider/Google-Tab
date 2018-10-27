@@ -55,7 +55,6 @@ var styleObj = {
 Object.assign(iconsDiv.style, {
     display: 'flex',
     position: 'absolute',
-    //textAlign: 'center',
     marginTop: '40px',
     //top: '317px'
 });
