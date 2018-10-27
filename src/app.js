@@ -138,7 +138,6 @@ Object.assign(inp.style, {
     border: 'none',
     width: '500px',
     outline: 'none'
-    //paddingLeft: '12px'
 
 //height: '35px',
     //width: '500px',
