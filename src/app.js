@@ -251,7 +251,6 @@ bell.setAttribute('src', 'bell-icon.png');
 Object.assign(bell.style, {
     width: '15px',
     height: '15px',
-    //top: '20px',
     //position: 'absolute',
     //right: '73px',
     //cursor: 'pointer'
