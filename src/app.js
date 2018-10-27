@@ -120,8 +120,7 @@ icon8.appendChild(i8);
 icon8.appendChild(button8);
 
 console.log(br);
-//secIconD.appendChild(icon7);
-//secIconD.appendChild(icon8);
+
 
 
 //iconsDiv.appendChild(icon4);
