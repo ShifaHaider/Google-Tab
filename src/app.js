@@ -315,7 +315,6 @@ Object.assign(body.style, {
     backgroundImage: "url(google-tab.jpg)",
     height: '100%',
     margin: '0',
-    //backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     //backgroundSize: 'cover',
     fontFamily: 'arial,sans-serif',
