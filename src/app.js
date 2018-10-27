@@ -118,11 +118,7 @@ i8.appendChild(plus);
 button8.innerHTML = 'Add shortcut';
 icon8.appendChild(i8);
 icon8.appendChild(button8);
-//icon7.appendChild(button7);
-//iconsDiv.appendChild(icon5);
-//iconsDiv.appendChild(icon6);
-//iconsDiv.appendChild(icon7);
-//iconsDiv.appendChild(icon8);
+
 console.log(br);
 //secIconD.appendChild(icon5);
 //secIconD.appendChild(icon6);
