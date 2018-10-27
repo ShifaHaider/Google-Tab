@@ -157,8 +157,6 @@ Object.assign(inpDiv.style, {
     borderRadius: '30px',
     paddingLeft: '20px',
     top: '235px',
-    //left: '351px',
-    //paddingTop: '2px',
     paddingRight: '10px',
     backgroundColor: "white",
     display: "flex",
