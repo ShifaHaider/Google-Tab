@@ -321,4 +321,3 @@ Object.assign(body.style, {
 });
 body.appendChild(mainDiv);
 
-//background-color: rgba(0,0,0,.55);
