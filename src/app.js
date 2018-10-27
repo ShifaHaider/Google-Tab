@@ -81,7 +81,6 @@ img4.setAttribute('src', 'map.0407227,16z');
 button4.innerHTML = 'Google Maps';
 icon4.appendChild(img4);
 icon4.appendChild(button4);
-//icon3.appendChild(button3);
 iconsDiv.appendChild(icon1);
 iconsDiv.appendChild(icon2);
 iconsDiv.appendChild(icon3);
