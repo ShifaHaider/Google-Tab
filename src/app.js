@@ -55,12 +55,11 @@ var styleObj = {
 Object.assign(iconsDiv.style, {
     display: 'flex',
     position: 'absolute',
-    marginTop: '40px',
+    marginTop: '40px'
 });
 Object.assign(secIconD.style, {
     display: 'flex',
-    marginTop: '40px',
-    //top: '317px'
+    marginTop: '40px'
 });
 Object.assign(icon1.style, styleObj);
 img1.setAttribute('src', 'download.png');
