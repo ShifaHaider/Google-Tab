@@ -44,7 +44,6 @@ var brD = document.createElement('div');
 var br = document.createElement('br');
 var d = document.createElement('div');
 var styleObj = {
-    //alignItems: 'center',
     display: 'flex',
     flexFlow: 'column nowrap',
     height: '100%',
