@@ -163,7 +163,6 @@ Object.assign(inpDiv.style, {
     justifyContent: "space-between",
     textAlign: 'center',
     marginTop: '20px'
-    //alignItems: "center"
 });
 
 mainDiv.appendChild(inpDiv);
