@@ -138,15 +138,6 @@ Object.assign(inp.style, {
     border: 'none',
     width: '500px',
     outline: 'none'
-
-//height: '35px',
-    //width: '500px',
-    //borderRadius: '30px',
-    //paddingLeft: '20px',
-    //position: 'absolute',
-    //top: '235px',
-    //left: '378px',
-    //paddingTop: '4px',
 });
 
 mic.setAttribute('src', 'download (3).png');
